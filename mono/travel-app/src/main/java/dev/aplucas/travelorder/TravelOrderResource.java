@@ -22,7 +22,8 @@ public class TravelOrderResource {
     }
 
     @GET
-    @Path("findbyid")
+    @Path("findById")
+    @Produces(MediaType.APPLICATION_JSON)
     public PanacheEntityBase findById(@QueryParam("id") long id) {
         return TravelOrder.findById(id);
     }
