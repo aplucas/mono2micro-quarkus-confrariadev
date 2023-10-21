@@ -1,4 +1,4 @@
-package travelorder;
+package dev.aplucas.travelorder;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
